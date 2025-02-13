@@ -13,6 +13,16 @@
   margin-bottom: 0;
 }
 
+/* for large spacing */
+.stack-large > * + * {
+  margin-top: var(--s3);
+}
+
+/* for small spacing */
+.stack-small > * + * {
+  margin-top: var(--s-3);
+}
+
 .l-stack > * + * {
   /* remove > for recursive */
   margin-top: var(--s1); /* arbitrary value */
